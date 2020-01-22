@@ -1,8 +1,12 @@
+# Fork Information
+This project was forked to maintain a version that decorates 32bit versions of Python rather than 64bit version of Python. This allows the
+`.python-version` to be portable across Windows and Linux.
+
 # pyenv for Windows
 
 [pyenv][1] is a great tool. I ported it to Windows. Some commands aren't implemented, but it's good enough for basic use.
 
-For existing python users, we support installation via pip: [follow instructions](#installation)  
+For existing python users, we support installation via pip: [follow instructions](#installation)
 Contributors and Interested people can join us @ [Slack](https://join.slack.com/t/pyenvforwindows/shared_invite/enQtODQ0NTQwMjEzOTA4LWE1YjMwMGI3YTAwYjg0MGQzNjg1ZjJiYTMzMTJkNWM4NTY5OTY4YmU3ZjhjMTc3MGJhMDY1MmJkMjFmY2ViNTI)
 
 >  Link to Official [2019 Python Developers Survey](https://surveys.jetbrains.com/s3/c16-python-developers-survey-2019)
@@ -67,9 +71,9 @@ Get pyenv-win via one of the following methods. (Note: examples are in command p
    - `git clone https://github.com/pyenv-win/pyenv-win.git %USERPROFILE%/.pyenv`
 
 ### Finish the installation
-   
-   1. Add a new variable under System variables in ENVIRONMENT with name:  
-      `PYENV` value: `%USERPROFILE%\.pyenv\pyenv-win` 
+
+   1. Add a new variable under System variables in ENVIRONMENT with name:
+      `PYENV` value: `%USERPROFILE%\.pyenv\pyenv-win`
    2. Now add the following paths to your ENVIRONMENT PATH variable in order to access the pyenv command (don't forget to separate with semicolons):
       - `%PYENV%\bin`
       - `%PYENV%\shims`
